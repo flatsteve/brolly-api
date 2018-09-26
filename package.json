@@ -1,0 +1,22 @@
+{
+  "name": "flatsteve/brolly",
+  "version": "0.0.6",
+  "description": "",
+  "author": "flatsteve",
+  "main": "functions/location/__main__.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "node-fetch": "^2.1.2"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "flatsteve/brolly",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
