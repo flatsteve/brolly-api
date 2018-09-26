@@ -1,6 +1,6 @@
 {
   "name": "flatsteve/brolly",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "author": "flatsteve",
   "main": "functions/location/__main__.js",
