@@ -1,5 +1,7 @@
 const locations = require("../../data/locations");
 
+const MAX_RESULTS = 10;
+
 /**
  * Returns the locations that start with the searchTerm
  * @param {string} searchTerm Start of location name to search for
@@ -14,5 +16,5 @@ module.exports = async searchTerm => {
     return 0 === locationName.indexOf(searchTerm);
   });
 
-  return results;
+  return results.slice(0, MAX_RESULTS);
 };
